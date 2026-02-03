@@ -1,0 +1,7 @@
+REPORT
+
+Q 4.3.1: What patterns do you notice?
+I notice 2 alternating periodic pulses. There are sharp spikes of a larger amplitude, and wider triangular pulses of smaller amplitude.
+
+Q 4.3.2: Do you notice any issues in the data? If you do, create a subset ecg to remove them.
+I noticed there is a lot of baseline drift.
