@@ -31,6 +31,7 @@ signal = np.convolve(lead_processed,np.ones(100)/100,mode='same')
 # temp vs time
 plt.figure()
 plt.plot(time, signal)
+plt.plot(time, lead_original)
 plt.xlabel(ECG_GUI.gui.x)
 plt.ylabel(ECG_GUI.gui.y)
 plt.title("Lead I vs Time")
