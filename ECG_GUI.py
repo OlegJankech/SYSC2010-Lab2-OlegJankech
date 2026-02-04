@@ -35,6 +35,7 @@ class MyGui:
         self.csv = self.textbox_CSV.get("1.0", "end-1c")
         self.x = self.textbox_x.get("1.0", "end-1c")
         self.y = self.textbox_y.get("1.0", "end-1c")
+        self.window.destroy()
 
 
 gui = MyGui()
